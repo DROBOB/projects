@@ -1,0 +1,298 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: #fff;
+}
+a{
+    text-decoration: none;
+}
+input{
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    margin:0;
+    font-weight: normal;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin:0;
+}
+/* 头部开始 */
+/* 头部开始 */
+.header{
+    width: 1320px;
+    height: 132px;
+    margin: 0 auto;
+
+}
+.logo{
+    width: 197px;
+    height: 44px;
+
+    margin-left: 63px;
+    margin-top: 44px;
+    float: left;
+}
+.contect{
+    width: 317px;
+    height: 23px;
+
+    float: right;
+    margin-right: 42px;
+    margin-top: 53px;
+    /* background-color: tomato; */
+    font-size: 13px;
+    color: #8d8d88;
+}
+.phone{
+
+    float: left;
+    margin-left: 1px;
+    margin-top: 1px;
+    width: 16px;
+    height: 19px;
+}
+.phone-number{
+    width: 95px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 2px;
+    font-size: 13px;
+    color: #8d8d88;
+
+}
+.line{
+    width: 1px;
+    height: 12px;
+    float: left;
+    /* margin-top: px; */
+    margin-left: 7px;
+
+
+}
+.email{
+    height: 16px;
+    width: 20px;
+    float: left;
+    margin-left: 13px;
+    margin-top: 3px;
+
+}
+.email-number{
+    width: 95px;
+    float: left;
+    margin-left: 6px;
+    margin-top: 1px;
+
+}
+/* 头部结束 */
+/* .header{
+    
+
+    width: 1320px;
+    height:131px;
+    margin:0 auto;
+}
+.logo{
+    width:197px;
+    height:44px;
+    margin-left:63px;
+    margin-top:44px; 
+    float:left;
+}
+.contact{
+    width:317px;
+    height:23px;
+    line-height: 23px;
+    float: right;
+    margin-right:42px;
+    margin-top:50px ; 
+    font-size:14px;
+    color:#8d8d8d;
+    font-family: "SourceHanSansCN-Regular";
+}
+.phone{
+    height:19px;
+    width:16px;
+    margin-left:2px;
+    margin-top:1px;
+    float:left;
+}
+.phone-number{
+    width:95px;
+    height:21px;
+    float: left;
+    line-height: 21px;
+    margin-left:4px;
+}
+.line{
+    width:1px;
+    height:13px;
+    background-color:#e4e4e4;
+    float: left;
+    margin-left:14px;
+    margin-right:15px;
+    margin-top:6px;
+}
+.email{
+    height:16px;
+    width:20px;
+    margin-left:2px;
+    margin-top:4px;
+    float:left;
+}
+.email-address{
+    height:21px;
+    width:132px;
+    float:left;
+    margin-left:10px;
+
+} */
+/* 头部结束 */
+/* 导航开始 */
+.nav{
+    background-color: #fff;
+    width: 100%;
+}
+.nav-item{
+    height:79px;
+    width:1211px;
+    margin:0 auto;
+}
+.left{
+    float: left;
+    width: 877px;
+    height:50px;
+}
+.left .nav-item{
+    height:50px;
+    width:170px;
+    float:left;
+    margin-top:16px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    color:#333;
+    font-family: "SourceHanSansCN-Regular";
+    font-size: 18px;
+    border-right:1px solid #e4e4e4;
+    
+}
+.left .selected{
+    color:#1f8fee;
+}
+li{
+    display: inline-block;
+}
+.nav-search{
+    width: 155px;
+    height:28px;
+    float:right;
+    margin-top:28px;
+}
+.search-input{
+    width:93px;
+    height:28px;
+    border-radius: 14px 0 0 14px;
+    border:1px solid #e5e5e5;
+    border-right: none;
+    padding-left: 15px;
+    margin: 0;
+     
+}
+.search-input:focus{
+    outline: none;
+}
+.search-input::placeholder{
+    color:#e5e5e5;
+}
+.search-submit{
+    margin:0;
+    height: 28px;
+    width:43px;
+    background-color: #b8c9ff;
+    border-radius:0 14px 14px 0;
+    border:1px solid #849ee7;
+    outline: none;
+    vertical-align: middle;
+    display: inline-block;
+    position: relative;
+    background-image: url(../image/search2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* 导航结束 */
+/* 尾部开始 */
+.footer{
+    width:100%;
+    background-color: #2d55a2;
+    
+}
+.footer-top{
+    height:264px;
+    width:1201px;
+    margin:0 auto;
+    color:#fff;
+    font-family: MicrosoftYaHei-Bold;
+    font-size: 12px;
+    line-height: 32px;
+}
+.footer-top ul{
+    float:left;
+}
+.footer-top .footer-top-item{
+    display: block;
+    opacity: 0.5;
+}
+.footer-top .title{
+    font-weight: 700;
+    margin-top: 30px;
+    opacity: 1;
+}
+.footer-top .about{
+    margin-left: 48px;
+}
+.footer-top .product{
+    margin-left: 75px;
+}
+.footer-top .culture{
+    margin-left:54px;
+}
+.footer-top .personnel{
+    margin-left: 55px;
+} 
+.footer-top .code{
+    float: right;
+    margin-top: 79px;
+    margin-right:48px;
+}
+.footer-top .code .code-item{
+    margin-right: 10px;
+}
+.footer-top .code .code-item .title{
+    width: 100%;
+	height: 13px;
+	font-family: MicrosoftYaHei-Bold;
+	font-size: 12px;
+    line-height: 32px;
+    text-align: center;
+    margin-top: 0;
+}
+.footer-bottom{
+    height:45px;
+    width: 100%;
+    font-size: 14px;
+    line-height: 45px;
+    text-align: center;
+    color: #ffffff;
+    opacity: 0.4;
+    background-color: #224382
+}
+.footer-bottom-item{
+    width:1320px;
+    margin:0 auto;
+}
+/* 尾部结束 */

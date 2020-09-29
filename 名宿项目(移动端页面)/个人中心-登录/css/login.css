@@ -1,0 +1,268 @@
+html, body, div, ul, li, h1, h2, h3, h4, h5, h6, p, dl, dt, dd, ol, form, input, textarea, th, td, select {
+    margin: 0;
+    padding: 0;
+}
+*{box-sizing: border-box;}
+html, body {
+    min-height: 100%;
+}
+
+body {
+    font-family: "Microsoft YaHei";
+    font-size:14px;
+    color:#333;
+}
+h1, h2, h3, h4, h5, h6{font-weight:normal;}
+ul,ol {
+    list-style: none;
+}
+
+img {
+    border: none;
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+    color: #232323;
+}
+
+table {
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+input, textarea {
+    outline: none;
+    border: none;
+}
+
+textarea {
+    resize: none;
+    overflow: auto;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.clearfix:after {
+    content: ".";
+    width: 0;
+    height: 0;
+    visibility: hidden;
+    display: block;
+    clear: both;
+    overflow:hidden;
+}
+
+.fl {
+    float: left
+}
+
+.fr {
+    float: right
+}
+
+.tl {
+    text-align: left;
+}
+
+.tc {
+    text-align: center
+}
+
+.tr {
+    text-align: right;
+}
+
+body{
+
+    background: #fafafa;
+}
+
+@media only screen and (max-width: 992px) {
+    .title-pic{
+        width: 100%;
+        height: 293px;
+        background: url("../imgs/home-pic.png");
+        background-size:100% 100% ;
+        /*margin-top: -50px;*/
+    }
+    .title-pic:before{
+        content:'';
+        display:table;
+    }
+
+
+    .main-login{
+        width: 6rem;
+        height: 3rem;
+        /*background: aqua;*/
+        /*position: absolute;*/
+        top: 207.5px;
+        left: 40px;
+        background-color: #ffffff;
+        border-radius: 8px;
+        margin:-81.75px auto;
+        padding-top: 28px;
+        padding-left:20px ;
+        padding-right: 20px;
+        padding-bottom: 50px;
+    }
+
+
+    .title-1 {
+        /*position: relative;*/
+        /*width: 100%;*/
+        height: auto;
+        font-family: NSimSun;
+        font-size: 13px;
+        font-weight: bold;
+        font-stretch: normal;
+        line-height: 23.5px;
+        letter-spacing: 1px;
+        color: #ba6052;
+        text-align: center;
+
+        margin-top:78px;
+    }
+
+
+
+    .title-main {
+        position: relative;
+
+        /*width: 280px;*/
+        height: auto;
+        font-family: SanFranciscoDisplay-Bold;
+        font-size: 31.5px;
+        font-weight: normal;
+        font-stretch: normal;
+        line-height: 29px;
+        letter-spacing: 0px;
+        color: #ba6052;
+        text-align: center;
+        /*margin-top: 8px;*/
+        /*margin: 0 auto;*/
+
+    }
+    .title-main span{
+        position: relative;
+        left: 5px;
+    }
+    .title-2{
+        font-family: PingFang-SC-Bold;
+        font-size: 13px;
+        font-weight: normal;
+        font-stretch: normal;
+        /*line-height: 47px;*/
+        letter-spacing: 1px;
+        color: #ba6052;
+        text-align: center;
+    }
+    .phone{
+        height: 32px;
+        width: 254.5px;
+        border-bottom: 0.04rem solid #000000;
+        opacity: 0.03;
+    }
+    .main-login img{
+        opacity: 1;!important;
+    }
+
+    ::-webkit-input-placeholder {
+        font-family: PingFang-SC-Bold;
+        color: #000000;
+        opacity: 0.2;
+    }
+
+    .password{
+        /*height: 32px;*/
+        position: relative;
+        top:-0.26rem;
+        width: 3.06rem;
+        border-bottom: 0.04rem solid #000000;
+        opacity: 0.03;
+
+    }
+    .button{
+        position: relative;
+        left: 3.25rem;
+        top: -1.3rem;
+        width: 1.8rem;
+        height: 0.48rem;
+        background-color: #e4e4e4;
+        border-radius: 0.08rem;
+        text-align: center;
+    }
+    .button span{
+        width: 1.06rem;
+        height: 0.25rem;
+        font-size: 0.26rem;
+        font-weight: normal;
+        font-stretch: normal;
+        line-height: 0.04rem;
+        letter-spacing: 0.01rem;
+        color: #000000;
+        opacity: 0.4;
+        position: relative;
+        top: 0.04rem;
+    }
+
+
+    .submit{
+        /*position: absolute;*/
+        width: 5.58rem;
+        height: 0.7rem;
+        background-color: #e4e4e4;
+        border-radius: 0.08rem;
+        /*top: 8.06rem;*/
+        /*left: 50%;*/
+        /*transition: ;*/
+        margin: 2.5rem auto;
+
+        text-align: center;
+    }
+
+    .submit span{
+        width: 1.22rem;
+        height: 0.29rem;
+        font-family: PingFang-SC-Bold;
+        font-size: 0.3rem;
+        font-weight: normal;
+        font-stretch: normal;
+        line-height: 0.04rem;
+        letter-spacing: 0.01rem;
+        color: #000000;
+        opacity: 0.4;
+        position: relative;
+        top: 0.13rem;
+    }
+
+
+    .bottom{
+        position: absolute;
+        width: 5.58rem;
+        height: 1.76rem;
+        bottom: 2rem;
+        left: 50%;
+        margin-left: -2.79rem
+    }
+
+    .bottom-wechat{
+        position: absolute;
+        bottom: 0rem;
+
+        /*top: 1.06rem;*/
+        width: 5.58rem;
+        height: 0.7rem;
+        background-color: #e1f3ee;
+        border-radius: 0.08rem;
+        /*opacity: 0.19;*/
+
+
+
+    }
+
+}

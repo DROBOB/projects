@@ -1,0 +1,243 @@
+html, body, div, ul, li, h1, h2, h3, h4, h5, h6, p, dl, dt, dd, ol, form, input, textarea, th, td, select {
+    margin: 0;
+    padding: 0;
+}
+*{box-sizing: border-box;}
+html, body {
+    min-height: 100%;
+}
+button{
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+body {
+    font-family: "Microsoft YaHei";
+    font-size:14px;
+    color:#333;
+    height: 15.5rem;
+    /*overflow: hidden;*/
+}
+h1, h2, h3, h4, h5, h6{font-weight:normal;}
+ul,ol {
+    list-style: none;
+}
+
+img {
+    border: none;
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+    color: #232323;
+}
+
+table {
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+input, textarea {
+    outline: none;
+    border: none;
+}
+
+textarea {
+    resize: none;
+    overflow: auto;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.clearfix:after {
+    content: ".";
+    width: 0;
+    height: 0;
+    visibility: hidden;
+    display: block;
+    clear: both;
+    overflow:hidden;
+}
+
+.fl {
+    float: left
+}
+
+.fr {
+    float: right
+}
+
+.tl {
+    text-align: left;
+}
+
+.tc {
+    text-align: center
+}
+
+.tr {
+    text-align: right;
+}
+
+body{
+
+    background: #ffffff;
+}
+
+
+
+@media only screen and (max-width: 992px) {
+    .header{
+        /*width: 1.38rem;*/
+        height: 1.98rem;
+        /*background-color: #ba6052;*/
+        margin: 1.2rem auto;
+        text-align: center;
+    }
+    .header img{
+        width: 1.38rem;
+        height: 1.38rem;
+
+    }
+    .header span{
+        position: relative;
+        top: 0.3rem;
+    }
+
+    .vip-info{
+
+        width: 6.38rem;
+        height: 0.55rem;
+        background-color: #3e3e3e;
+        border-radius: 0.1rem 0.1rem 0rem 0rem;
+        position: absolute;
+        /*bottom: rem;*/
+        top: 3.82rem;
+        left: 50%;
+        margin-left: -3.19rem;
+
+        padding-left: 0.23rem;
+        padding-right: 0.23rem;
+
+    }
+    .main-order{
+        position: absolute;
+        top: 4.77rem;
+        width: 6.38rem;
+        height: 3.14rem;
+        background-color: #ffffff;
+        box-shadow: 0rem 0.01rem 0.3rem 0rem
+        rgba(242, 242, 242, 0.75);
+        border-radius: 0.08rem;
+        left: 50%;
+        margin-left: -3.19rem;
+
+        padding: 0.23rem;
+
+    }
+    .my-order{
+        width: 100%;
+        height: 0.552rem;
+        border-bottom: 0.02rem solid rgba(0,0,0,0.03);
+
+        /*background-color: #ffe771;*/
+    }
+
+    .orders .orderss{
+        float: left;
+        width: 1.06rem;
+        height: 1.62rem;
+        /*background: #00b583;*/
+        margin-top: 0.4rem;
+        margin-left: 0.55rem;
+        text-align: center;
+    }
+    .orders .orderss:nth-child(1){
+        margin-left: 0;
+    }
+    .orders .orderss span{
+        display: block;
+        margin-top:0.3rem;
+        opacity: 0.85;
+        letter-spacing: 0.01rem;
+
+        /*margin-left: 0.1rem;*/
+
+    }
+    .orders .orderss img{
+        height: 1.06rem;
+        width: 1.06rem;
+    }
+
+
+
+
+
+
+
+    .message{
+        position: absolute;
+        height: 3.5rem;
+        width: 6.38rem;
+        top: 8.8rem;
+        /*background: #00b583;*/
+        left: 50%;
+        margin-left: -3.19rem;
+    }
+    .message-child{
+        /*font-size: 0.32rem;*/
+        margin-top: 0.5rem;
+        height: 0.32rem;
+        /*background: red;*/
+
+    }
+    .message-child span{
+        letter-spacing: 0.01rem;
+        opacity: 0.8;
+    }
+    .message-child:nth-child(1){
+        margin-top: 0rem;
+    }
+
+
+
+
+    .button-submit{
+        position: absolute;
+        top: 13.5rem;
+        width: 6.1rem;
+        height: 0.7rem;
+        left: 50%;
+        margin-left: -3.05rem;
+        background-color: #eb666b;
+        box-shadow: 0rem 0.1rem 0.2rem 0rem
+        rgba(204, 100, 100, 0.5);
+        border-radius: 0.1rem;
+        text-align: center;
+
+    }
+    .button-submit span{
+        position: relative;
+        /*top: 0.15rem;*/
+        letter-spacing: 0rem;
+        color: #ffffff;
+    }
+
+
+
+
+
+    .bottom{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 1.67rem;
+        background-color: #ffffff;
+        box-shadow: 0rem -0.01rem 0.3rem 0rem
+        rgba(242, 242, 242, 0.75);
+    }
+}

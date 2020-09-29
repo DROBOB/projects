@@ -1,0 +1,49 @@
+.banner{
+    width: 100%;
+    height: 601px;
+    background: url("../imgs/intorduction-poster.png") no-repeat center;
+}
+/* 关于我们开始 */
+.aboutUs{
+    width:1143px;
+    height: 565px;
+    margin-top:134px;
+    margin:134px auto 0;
+}
+.aboutUs img{
+    float:left;
+}
+.about-container{
+    float:right;
+    width: 585px;
+    background:url(../imgs/aboutus.png) no-repeat top right;
+	font-family: PingFangSC-Regular;
+    font-size: 14px;
+    text-align: right;
+	line-height: 21px;
+	color: #000000;
+    opacity: 0.8;
+    padding-top: 267px;
+}
+/* 关于我们结束 */
+/* 公司环境开始 */
+.environment{
+    width:100%;
+    height: 653px;
+}
+.environment-title{
+    width:499px;
+    height:59px;
+    background: url(../imgs/environment-title.png) no-repeat center;
+    margin:225px auto 0;
+}
+.environment-img{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+}
+.environment-img img{
+    width:19%;
+    height:215px;
+}
+/* 公司环境结束 */
